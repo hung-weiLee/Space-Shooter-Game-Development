@@ -1,0 +1,19 @@
+-------By default------
+Key:            Funtion:
+Up Arrow        Go up
+Right Arrow     Go Right
+Down Arrow      Go Down
+Left Arrow      Go Left
+Space           Shoot
+Left Shift      Increase Speed
+Right Shift     Decrease Speed
+Left Bracket    Normal Mode
+Right Bracket   Slow Mode
+
+--------Others----------
+Use the Setting button to change key inputs.
+
+When the speed is at least as in slow mode,
+    shooting source shows up as a red dot.
+
+----------Have fun!-------

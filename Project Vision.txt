@@ -1,0 +1,46 @@
+Project Vision
+1. Business Objective: 
+Produce a fun, engaging bullet hell shooting game and its level interpreter that will appeal professionals and peers. We have the opportunity to build a stable, object oriented, stand-alone desktop game and its level interpreter. It is available on all standard PC with Java 8+. Success will also attract professionals to support us in many ways.
+2. Customers and benefits: 
+Primary: Professionals who will give us support in academia and career.
+Secondary: Peers that are interested in bullet hell shooting games.
+3. Key factors used to judge quality:
+* The game must be implemented with Object Oriented Design Principles, certain design patterns such as Abstract Factory Pattern and certain software architectures. 
+* The game must be complex and user-friendly enough that the game experience is close to mainstream bullet hell shooting games like Touhou Project, Raiden and so on.
+4. Key features of the game:
+* The game has a main menu that shows the scores history, ranking, basic tutorial, information about the game and the producers.
+* The main menu has a link to allow users to configure the game such as customizing the keyboard, activating cheating mode, choosing difficulty levels, modifying the number of hero’s lives and so on.
+* The game lasts for about 3 minutes, including four phases, which are regular play with grants, mid boss attack, regular play with more grants, and final boss attack.
+* The game supports two players mode.
+* The hero can be controlled with keyboard configured in the main menu. At the beginning of the game, the hero appears at the bottom of the screen. A hitbox much smaller than the hero is shown on the hero that the hero dies only when the bullets hit the hitbox.
+* The hero can transferred to slow speed mode by pressing a certain key on the keyboard.
+* The hero can fire bullets forward by pressing a certain key on the keyboard or keep shooting based on the configuration in main manu.
+* The hero has a customized number of lives. Each time the hero is hit, the number of lives decreased by one. When the number of lives decreases to zero, the game is over.
+* When the hero is killed, there is 5 seconds invincible time for the revived hero. At that time the enemies’ bullets cannot kill the hero.
+* The game has 6 types of enemies (including bosses), each enemy has 8 directions of movement (2 vertical movements, 2 horizontal movements, 4 45 degrees movements) and at most 4 bullets shooting patterns, which can be interpreted by an external file.
+* The enemies hitbox is the same to their texture size.
+* All enemies including bosses have timeout mechanisms that they exit the screen when they do not die in a certain amount of time.
+* All enemies have its own HP. They are killed when HP decreases to zero. Each hit by the hero decreases 1 or more HP.
+* The game has two kinds of enemies’ bullets textures for 4 shooting patterns.
+* The first bullets shooting pattern uses lazer texture, which can shoot vertically and horizontally to 4 directions.
+* The last three bullets shooting patterns use star texture, which can shoot with exact aiming, rough aiming or shoot randomly.
+* The first type of enemies move through the screen with any eight directions, shooting bullets with exact aiming. They have only 10 HP.
+* The second type of enemies move horizontally at the top of screen back and forth, shooting bullets with first shooting pattern, shooting downward. This type of enemies exit the screen after 20 seconds if not killed. They have 50 HP.
+* The third type of enemies move horizontally at the top of screen back and forth, shooting bullets with the last pattern, shooting randomly. This type of enemies exit the screen after 20 seconds if not killed. They have 30 HP.
+* The forth type of enemies move with rebounding in four 45 degrees movement, shooting with the third pattern, shooting with rough aiming. They have 10 HP. 
+* The first boss has two stages. This boss moves horizontally at the top of screen back and forth. In the first stage, the boss shoots with the third pattern. In the second stage, the boss shoots with the four-way first pattern as well as third and forth patterns at the same time. 
+* The first boss has 200 HP. When the HP decreases to 100, it changes to the second stage.
+* The second boss has two stages. This boss follows the path that already set to moves. In the first stage, the boss shoots with the second and third firing pattern. In the second stage, the boss shoots with the first firing pattern as well as second and third firing patterns at the same time.
+* The second boss has 500 HP. When HP decreases to 250, it changes to the second stage.
+* The first phase lasts 30 seconds. The first enemies cross the screen in eight directions continuously. 4 second enemies appear on the screen in different height.
+* The second phase is for the first boss. It lasts for about 1 minutes. If the boss is not killed, it exits the screen and exit this phase.
+* The third phase lasts 30 seconds. Four kinds of ordinary enemies appear with their own patterns. The density of enemies is also higher.
+* The forth phase is for the second boss. It lasts for about 1 minutes. If the boss is killed or time is out, the game is over and the screen shows victory.
+* The second and third type of enemies drop power-ups, bomb and life pieces when they are killed. 
+* The power-ups, bomb and life pieces stay on the screen until the hero gets them or disappear after 20 seconds. 
+* Each time the hero gets one power-up, the number of lines of shooting bullets increases by one. The damage of each bullet also increases by one. The maximum number of power-ups that the hero gets can be up to 8.
+* Each time the hero is killed, the power-up status returns to the weakest one.
+* The hero can get bomb pieces and can use them when it is in danger. When use the bomb, all enemies’ bullets disappear and the HP of each enemies decreases by 50.
+* When the hero gets a life piece, the life count increases by one.
+* The score is shown on the screen, each time a hero’s bullet hits a enemy, no matter the how much the damage is, the score increases by 100. No score for bombs.
+

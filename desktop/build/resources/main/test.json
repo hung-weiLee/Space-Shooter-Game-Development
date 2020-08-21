@@ -1,0 +1,367 @@
+{
+  "waves": [
+    {
+      "time": 48000,
+      "enemy":
+      {
+        "type": "BossA",
+        "attackingDuration": 22000,
+        "num": 1,
+        "layout": "Single",
+        "size": [
+          120,
+          120
+        ],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 2000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 4000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 6000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":8000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 10000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 12000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 14000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":16000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 18000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 20000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 22000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":24000
+          }
+        ]
+      }
+    },
+    {
+      "time": 92000,
+      "enemy":
+      {
+        "type": "BossB",
+        "attackingDuration": 43000,
+        "num": 1 ,
+        "layout": "Single",
+        "size": [
+          140,
+          140
+        ],
+        "moveStyle": "DropToMiddleThenFollowHorizontally",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 2000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 4000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 6000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":8000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 10000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 12000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 14000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":16000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 18000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 20000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 22000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":24000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 26000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 28000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 30000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":32000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 34000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 36000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 38000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":40000
+          }
+        ]
+      }
+    },
+    {
+      "time": 187000,
+      "enemy":
+      {
+        "type": "BossB",
+        "attackingDuration": 40000,
+        "num": 1 ,
+        "layout": "Single",
+        "size": [
+          140,
+          140
+        ],
+        "moveStyle": "DropToMiddleThenFollowHorizontally",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 2000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 4000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 5000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 7000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 8000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 10000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 11000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 13000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 14000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 16000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 17000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 19000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 20000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 22000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 23000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 25000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 26000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 28000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 29000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 31000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 32000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 34000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 35000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 37000
+          },
+
+
+          {
+            "bulletType": "BigBullet",
+            "time": 38000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 40000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 41000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 43000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 44000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 46000
+          }
+        ]
+      }
+    }
+  ]
+}

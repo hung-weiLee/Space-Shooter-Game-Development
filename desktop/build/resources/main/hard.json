@@ -1,0 +1,638 @@
+{
+  "waves": [
+    {
+      "time": 1000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 10000,
+        "num": 5,
+        "layout": "V",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenOscillate",
+        "bullets": [
+          {
+            "bulletType": "SmallBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 5000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 6,
+        "layout": "Vertical",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          }
+        ]
+      }
+    },
+    {
+      "time": 13000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 6,
+        "layout": "Vertical",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          }
+        ]
+      }
+    },
+    {
+      "time": 25000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 8000,
+        "num": 6,
+        "layout": "HorizontalFullWidth",
+        "size": [
+          60,
+          60],
+        "moveStyle": "DropToMiddleThenStay",
+        "bullets": [
+          {
+            "bulletType": "SmallBullet",
+            "time": 0,
+            "layout": "Diagonal",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 30000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 8000,
+        "num": 3,
+        "layout": "UpDiagonal",
+        "size": [
+          40,
+          40],
+        "moveStyle": "SW",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 32000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 6,
+        "layout": "Vertical",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          }
+        ]
+      }
+    },
+    {
+      "time": 35000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 8000,
+        "num": 3,
+        "layout": "DownDiagonal",
+        "size": [
+          40,
+          40],
+        "moveStyle": "SE",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 48000,
+      "enemy":
+      {
+        "type": "BossA",
+        "attackingDuration": 22000,
+        "num": 1,
+        "layout": "Single",
+        "size": [
+          120,
+          120
+        ],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 2000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 4000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 6000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":8500
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 10000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 12000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 14000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":16500
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 18000,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+          {
+            "pause": "holder_value",
+            "time": 20000
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 22000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time":24500
+          }
+        ]
+      }
+    },
+    {
+      "time": 75000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 15000,
+        "num": 5,
+        "layout": "RandomLayout",
+        "size": [
+          50,
+          50],
+        "moveStyle": "FollowTarget",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 80000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 6,
+        "layout": "Vertical",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          }
+        ]
+      }
+    },
+    {
+      "time": 82000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 15000,
+        "num": 5,
+        "layout": "RandomLayout",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DownDiagonal",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 85000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 15000,
+        "num": 2,
+        "layout": "DownDiagonal",
+        "size": [
+          40,
+          40],
+        "moveStyle": "SE",
+        "bullets": [
+          {
+            "bulletType": "SmallBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 87000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 6,
+        "layout": "Vertical",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          }
+        ]
+      }
+    },
+    {
+      "time": 90000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 3,
+        "layout": "HorizontalHalfWidth",
+        "size": [
+          50,
+          50],
+        "moveStyle": "SteadyDrop",
+        "bullets": [
+          {
+            "bulletType": "SmallBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "ConstAngel"
+          }
+        ]
+      }
+    },
+    {
+      "time": 95000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 10000,
+        "num": 7,
+        "layout": "V",
+        "size": [
+          30,
+          30],
+        "moveStyle": "DropToMiddleThenOscillate",
+        "bullets": [
+          {
+            "bulletType": "SmallBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "SteadyDrop"
+          }
+        ]
+      }
+    },
+    {
+      "time": 98000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 6,
+        "layout": "Vertical",
+        "size": [
+          50,
+          50],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "MediumBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          }
+        ]
+      }
+    },
+    {
+      "time": 100000,
+      "enemy":
+      {
+        "type": "EnemyB",
+        "attackingDuration": 10000,
+        "num": 8,
+        "layout": "HorizontalHalfWidth",
+        "size": [
+          30,
+          30],
+        "moveStyle": "SteadyDrop",
+        "bullets": [
+          {
+            "bulletType": "SmallBullet",
+            "time": 0,
+            "layout": "SextupleCenter",
+            "moveStyle": "ConstAngel"
+          }
+        ]
+      }
+    },
+    {
+      "time": 105000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 20000,
+        "num": 1,
+        "layout": "DownDiagonal",
+        "size": [
+          60,
+          60],
+        "moveStyle": "SE",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "ConstAngel"
+          }
+        ]
+      }
+    },
+    {
+      "time": 110000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 20000,
+        "num": 1,
+        "layout": "UpDiagonal",
+        "size": [
+          60,
+          60],
+        "moveStyle": "SW",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "ConstAngel"
+          }
+        ]
+      }
+    },
+    {
+      "time": 115000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 20000,
+        "num": 1,
+        "layout": "DownDiagonal",
+        "size": [
+          60,
+          60],
+        "moveStyle": "SE",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "ConstAngel"
+          }
+        ]
+      }
+    },
+    {
+      "time": 120000,
+      "enemy":
+      {
+        "type": "EnemyA",
+        "attackingDuration": 20000,
+        "num": 1,
+        "layout": "UpDiagonal",
+        "size": [
+          60,
+          60],
+        "moveStyle": "SW",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 0,
+            "layout": "SingleCenter",
+            "moveStyle": "ConstAngel"
+          }
+        ]
+      }
+    },
+    {
+      "time": 135000,
+      "enemy":
+      {
+        "type": "BossB",
+        "attackingDuration": 40000,
+        "num": 1 ,
+        "layout": "Single",
+        "size": [
+          140,
+          140
+        ],
+        "moveStyle": "DropToMiddleThenMoveHorizontally",
+        "bullets": [
+          {
+            "bulletType": "BigBullet",
+            "time": 3500,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+         {
+            "pause": "holder_value",
+            "time": 4500
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 6000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time": 9000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 11500,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+         {
+            "pause": "holder_value",
+            "time": 12500
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 14000,
+            "layout": "DoubleHelix",
+            "moveStyle": "DenseDrop"
+          },
+          {
+            "pause": "holder_value",
+            "time": 18000
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 19500,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+         {
+            "pause": "holder_value",
+            "time": 20500
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 22000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 25500
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 27500,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+         {
+            "pause": "holder_value",
+            "time": 28500
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 30000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 33500
+          },
+          {
+            "bulletType": "BigBullet",
+            "time": 35500,
+            "layout": "SextupleCenter",
+            "moveStyle": "CoverAllWithDots"
+          },
+         {
+            "pause": "holder_value",
+            "time": 36500
+          },
+          {
+            "bulletType": "SmallBullet",
+            "time": 38000,
+            "layout": "SextupleHelixTogether",
+            "moveStyle": "CoverAllWithLines"
+          },
+          {
+            "pause": "holder_value",
+            "time": 41500
+          }
+        ]
+      }
+    }
+  ]
+}
