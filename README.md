@@ -1,4 +1,4 @@
-# Team NLC587
+# Space-Shooter-Game-Development
 
 ## Project Vision
 - Project Vision.txt
