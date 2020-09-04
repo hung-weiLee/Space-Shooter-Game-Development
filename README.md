@@ -1,5 +1,5 @@
 # Space-Shooter-Game-Development
-- Use of Architectural pattern and Design pattern for Game development
+- A space shooter game developed with Java Libgdx Framework, which uses of Architectural pattern and Design pattern for Game Programming.
 
 ## Project Vision
 - Project Vision.txt
